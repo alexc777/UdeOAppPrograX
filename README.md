@@ -1,27 +1,9 @@
 # UdeoApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
+## Inyección de Dependencias
 
-## Development server
+En Angular podemos ejemplificar la inyección de dependecias utilizando los servicios, ya que básicamente la inyección de dependencias es un mecanismo por el cual se inyectan las dependencias de una clase, es decir los métodos de un Servicio (Services) o bien las propias utilidades de Angular, como lo es el módulo del Router, que es una clase que nos permite utilizar métodos para navegar en nuestra aplicación.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Inversión de Control
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Esta se enfoca en externalizar la contrucción y manejo de objetos (un framework) y Angular es un framework de JavaScript que permite controlar este tipo de funciones como la ejecución de funciones en determinado ciclo de la aplicación y para ello ofrece los componentes con un cliclo de vida, que son funciones externar o bien ya propias del framwork que no sabes que se ejecuta detras de dicha función pero si la podemos utilizar para ejecutar una acción determianda en un tiempo determiando.
