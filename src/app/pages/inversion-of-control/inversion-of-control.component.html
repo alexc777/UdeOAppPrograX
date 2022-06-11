@@ -1,0 +1,29 @@
+<h1>Inversión de Control</h1>
+<p>Abre la consola para ver como se ejecutan los eventos en el ciclo de vida de un componente Angular</p>
+<p>Donde son funciones propias del Framework y se ejecutan en determinado estado.</p>
+
+<p>Este nos permite manipular los objetos de un componente como la contrucción de un objeto en determiando momento.</p>
+
+<br>
+
+<h1></h1>
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Pros de utilizar Inversion of Control</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Permite ampliar funcionalidad de una aplicación sin modificar las clases, es decir que cuenta con métodos que permiten ejecutar acciones sin hacer un cambio drastico en la estrucutar de nuestra aplicación.</td>
+    </tr>
+
+    <tr>
+      <td>Flexibilidad en nuestra aplicación ya que a travez de estos métodos las funciones pueden ser configurables</td>
+    </tr>
+
+    <tr>
+      <td>Los ciclos de un componente es como si realizaramos una petición hacia el framework, en la cual le decimos, por ejemplo "Angular" cuando mi clase o componente ya finalizo su renderización por favor ejecuta una acción. Para esto utilizamos el método "AfterContentInit" simplemente de se declara la función en nuestra clase y automaticamene se ejecuta, nosotros no lo ejecutamos mandando a llamara una función, si no que ya es parte de "Angular". Para fines practimos mostraremos un log con el número 4 en dicho método</td>
+    </tr>
+  </tbody>
+</table>
